@@ -19,7 +19,7 @@
 
 .nav-animation-right {
     position: relative;
-    animation: move-right 4s;
+    animation: move-right 3s;
 }
 
 .bg-animation {
@@ -30,15 +30,7 @@
 .grey-padding {
     padding-top: 15em;
     padding-bottom: 12em;
-    animation: move-down 5.5s;
-}
-
-@media screen and (max-width: 750px) {
-    .grey-padding {
-        padding-top: 15em;
-        padding-bottom: 12em;
-        animation: move-down 6s
-    }
+    animation: move-down 6s;
 }
 
 .nav-animation-left {
