@@ -134,4 +134,10 @@ h2:hover, h1:hover {
         position: relative;
         animation: move-right 2s;
     }
+
+    .grey-padding {
+        padding-top: 15em;
+        padding-bottom: 15em;
+        animation: move-down 6s;
+    }
 }
