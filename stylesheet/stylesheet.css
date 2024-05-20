@@ -149,3 +149,8 @@ h2:hover, h1:hover {
         animation: move-down 6s;
     }
 }
+
+.img-fill {
+    max-height: auto;
+    max-width: 80%;
+}
