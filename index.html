@@ -12,58 +12,44 @@
 <body class="Background">
 
     <div class="Navbar">
-        <a class="active" href="#Home">Home</a>
-        <a href="#Slideshow">Slideshow</a>
-        <a href="#About">About</a>
-        <a href="#GitHub">GitHub</a>
+        <a class="active" href="#home">Home</a>
+        <a href="#slideshow">Slideshow</a>
+        <a href="#about">About</a>
+        <a href="#gitHub">GitHub</a>
         <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
     </div>
 
-    <div id="Home">
+    <div id="home">
         <video autoplay muted loop id="Typing_Video">
-            <source src="images/video/Typing.mp4" type="video/mp4">
+            <source src="./images/video/Typing.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
         </video>
     </div>
     <div class="Video_Text">
-        <h1 class="white-text">Your Name's Portfolio</h1>
-        <strong>
+        <h1 class="white-text">Dean Blackburn's Portfolio</h1> <br><br>
             <p class="center">
-                <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
-                    <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
-                    <br>field of battle and to command such unswervingly dutiful actors or troops.
-                </q>
-                <br> -Joseph Weizenbaum<br>
-                <br>
-                My name is ____. Welcome to my portfolio website. On it, I will tell you about my background and experience.
-                <br>
-                <br>Thank you for stopping by and enjoy! 
+                <q>There is no such thing as a boring project. There are only boring executions</q> <br><br>
+                <cite>-Irene Etzkorn</cite> <br><br>
+                My name is Dean Blackburn, welcome to my portfolio website. On it, I will tell you about my background and experience.  <br><br>
+                I hope you enjoy and thank you for stopping by!
             </p>
         </strong>
     </div>
 
-    <div id="Slideshow">
+    <div id="slideshow">
         <div id="Slideshow_Background"> 
             <div id="Slideshow_Container">
                 <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="images/Square Personal Photo.png" alt="Picture of yourself">
+                    <img class="Slideshow_Images" src="images/me.png" alt="Picture of yourself">
                     <div class="text">I'm available to assist you on your project!</div>
                 </div>
                 <div class="mySlides fade">
                     <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
-                    <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    <div class="text">I am a front-end web developer,<br> trained in:<br>HTML, CSS, JavaScript</div>
                 </div>
                 <div class="mySlides fade">
                     <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
-                    <div class="text">the popular programming language Python,</div>
-                </div>
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
-                    <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
-                </div>
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo"> 
-                    <div class="text">back end development, databases and SQL.</div>
+                    <div class="text">And the popular programming language, Python</div>
                 </div>
                 <div class="mySlides fade">
                     <img class="Slideshow_Images" src="images/Square Custom Picture.png" alt="Replace with a picture of your choosing"> 
@@ -77,39 +63,35 @@
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span> 
-                <span class="dot" onclick="currentSlide(4)"></span> 
-                <span class="dot" onclick="currentSlide(5)"></span> 
-                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
     </div>
     
     <div class="Row" id="About">
         <div class="Column_2">
-            <img src="images/Square Custom Picture.png" alt="Replace with a picture of your choosing">
+            <img src="./images/holiday_picture.png" alt="Replace with a picture of your choosing">
         </div>
         <div class="Column_1">
             <h1>About</h1>
             <p>
-                I am a software developer who loves to code! As a father of two, I enjoy time with my family and traveling. 
-                <br>
-                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, Python, C# and more. 
-                <br>
-                <br>I am a full-stack developer and would love to work with you on your project. <a onclick="openForm()" class="contact">Contact</a> me below!
+                I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript and Python. <br><br>
+                My main hobbies include travelling with my wife, keeping myself fit in the gym and spending time on my computer - whether that's playing video games with my friends or learning something new! <br><br>
+                I am a qualified front-end web developer and would love to work with you on your project. <a onclick="openForm()" class="contact">Contact</a> me below!
             </p>
         </div>
     </div>
 
-    <div class="Row" id="GitHub">
+    <div class="Row" id="gitHub">
         <div class="Column_1">
             <h1>GitHub</h1>
             <p>You can view my coding projects on my GitHub profile here:
                 <br>
-                <p class="center"><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy Github</a></p>
+                <p class="center"><a href="https://github.com/Acentrix-Dean" target="_blank">Acentrix Dean</a></p>
             </p>
         </div>
         <div class="Column_2">
-            <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png"></a>
+            <a href="https://github.com/Acentrix-Dean" target="_blank"><img src="images/GitHub.png"></a>
         </div>
     </div>
 
